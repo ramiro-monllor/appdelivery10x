@@ -1762,6 +1762,7 @@ p {
   background: #263238;
   position: relative;
   z-index: 1;
+  top: 20px;
 }
 
 .footer .footer-shape .shape {
