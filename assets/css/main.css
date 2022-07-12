@@ -1619,7 +1619,8 @@ p {
 }
 
 .about-section .about-img img {
-  width: 100%;
+  width: 70%;
+  height: 800px;
 }
 
 .about-section .about-content {
@@ -1745,8 +1746,27 @@ p {
   }
 }
 
+.container-display-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .delivery-img img {
   width: 100%;
+}
+
+.zcal-button {
+  background-color: #bc4ed8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
 }
 
 .partner-section .single-partner {
@@ -1791,7 +1811,8 @@ p {
 }
 
 .footer .footer-widget .download-btns a {
-  display: inline-flex;
+  display: flex;
+  columns: 2fr 1fr;
   align-items: center;
   padding: 14px 30px;
   border-radius: 10px;
@@ -1825,11 +1846,6 @@ p {
   color: #fff;
 }
 
-.footer .footer-widget h3 {
-  color: #fff;
-  margin-bottom: 25px;
-}
-
 .footer .footer-widget ul.links li a {
   font-size: 16px;
   font-weight: 400;
@@ -1839,6 +1855,13 @@ p {
 
 .footer .footer-widget ul.links li a:hover {
   color: #bc4ed8;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
 }
 
 @media (min-width: 1600px) {
