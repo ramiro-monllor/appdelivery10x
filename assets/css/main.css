@@ -881,7 +881,7 @@ p {
 }
 
 .pt-150 {
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 .pt-155 {
@@ -1618,9 +1618,10 @@ p {
   margin-bottom: 25px;
 }
 
+/* --------------   about start css ----------------- */
+
 .about-section .about-img img {
-  width: 70%;
-  height: 800px;
+  width: 100%;
 }
 
 .about-section .about-content {
@@ -1645,6 +1646,9 @@ p {
   .about-section .about-content {
     padding-left: 0;
     margin-top: 50px;
+  }
+  .col-lg-6 {
+    align-self: center;
   }
 }
 
@@ -1734,9 +1738,135 @@ p {
   color: #fff;
 }
 
+/* --------------   about end css ----------------- */
+
+/* --------------   virtual start css ----------------- */
+
+.image-nunito {
+  width: 60%;
+  margin: 0 0 50px;
+}
+
+.virtual-section .about-img img {
+  width: 100%;
+}
+
+.virtual-section .about-content {
+  padding-left: 75px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .virtual-section .about-content {
+    padding-left: 0;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .virtual-section .about-content {
+    padding-left: 0;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .virtual-section .about-content {
+    padding-left: 0;
+    margin-top: 50px;
+  }
+}
+
+.virtual-section .about-content .section-title h1 {
+  margin-bottom: 35px;
+}
+
+.virtual-section .about-content .section-title p {
+  margin-bottom: 35px;
+}
+
+.virtual-section .about-content .rating-meta {
+  margin-bottom: 35px;
+}
+
+.virtual-section .about-content .rating-meta h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.virtual-section .about-content .rating-meta .rating {
+  color: #bc4ed8;
+}
+
+.virtual-section .about-content .counter-up {
+  background: #bc4ed8;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.virtual-section .about-content .counter-up .single-counter {
+  padding: 20px 0;
+  margin: 0 15px;
+}
+
+.virtual-section .about-content .counter-up .single-counter::before,
+.virtual-section .about-content .counter-up .single-counter::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: calc(100% - 40px);
+  background: #fff;
+  top: 20px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .virtual-section .about-content .counter-up .single-counter::before,
+  .virtual-section .about-content .counter-up .single-counter::after {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .virtual-section .about-content .counter-up .single-counter::before,
+  .virtual-section .about-content .counter-up .single-counter::after {
+    opacity: 0;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .virtual-section .about-content .counter-up .single-counter::before,
+  .virtual-section .about-content .counter-up .single-counter::after {
+    opacity: 1;
+  }
+}
+
+.virtual-section .about-content .counter-up .single-counter::before {
+  left: -50%;
+}
+
+.virtual-section .about-content .counter-up .single-counter::after {
+  right: -50%;
+}
+
+.virtual-section .about-content .counter-up .single-counter h3 {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.virtual-section .about-content .counter-up .single-counter h5 {
+  font-weight: 500;
+  color: #fff;
+}
+
+/* --------------   virtual end css ----------------- */
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .delivery-img {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 }
 
