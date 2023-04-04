@@ -2228,11 +2228,11 @@ p {
 
 @media (max-width: 767px) {
   .technologies{
-    width: 8vh;
-    height: 8vh;
-    border-radius: 1vh;
-    margin-left: 3vh;
-    margin-right: 3vh;
+    width: 12vh;
+    height: 12vh;
+    border-radius: 1.4vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
     margin-top: 2vh;
   }
   .technologies-container{
@@ -2289,6 +2289,11 @@ p {
 
 .cont-img-footer{
   margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.containerIconsFooter{
   display: flex;
   justify-content: center;
 }
