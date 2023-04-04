@@ -1197,9 +1197,9 @@ p {
   padding: 0;
 }
 
-.navbar-brand img {
+/* .navbar-brand img {
   max-width: 180px;
-}
+} */
 
 .navbar-toggler {
   padding: 0;
@@ -2287,8 +2287,13 @@ p {
   width: 180px;
 }
 
+.logo-pagina-2{
+  width: 100px;
+}
+
 .cont-img-footer{
   margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
   display: flex;
   justify-content: center;
 }
@@ -2296,4 +2301,8 @@ p {
 .containerIconsFooter{
   display: flex;
   justify-content: center;
+}
+
+.navbar-brand img {
+  max-width: 70px;
 }
