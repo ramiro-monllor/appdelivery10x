@@ -1883,10 +1883,16 @@ p {
   .delivery-img {
     margin-bottom: 10px;
   }
+  .delivery-img-2 {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 767px) {
   .delivery-img {
+    margin-bottom: 50px;
+  }
+  .delivery-img-2 {
     margin-bottom: 50px;
   }
 }
@@ -1900,6 +1906,10 @@ p {
 
 .delivery-img img {
   width: 100%;
+}
+
+.delivery-img-2 img {
+  width: 80%;
 }
 
 .zcal-button {
