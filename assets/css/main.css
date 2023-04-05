@@ -2207,7 +2207,21 @@ p {
 @media (max-width: 767px) {
   .pricing-container{
     margin-bottom: 20px;
-    width: 300px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pricing-container{
+    /* margin-left: 30px; */
+    width: 360px;
+  }
+}
+
+@media (max-width: 500px) {
+  .pricing-container{
+    /* margin-left: 30px; */
+    width: 360px;
   }
 }
 
