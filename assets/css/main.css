@@ -2351,6 +2351,7 @@ ion-icon {
   list-style: none;
   /* font-size: 12px; */
   font-size: 1.5vh;
+  text-align: center;
 }
 
 
@@ -2359,9 +2360,10 @@ ion-icon {
   flex-wrap: wrap;
   justify-content: space-around;
   /* width: 740px; */
-  width: 50vh;
+  width: 55vh;
   /* margin-bottom: 50px; */
   margin-bottom: 2.5vh;
+  margin-left: -30px;
 }
 
 .iconos-subdiv{
