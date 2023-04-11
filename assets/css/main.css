@@ -2339,7 +2339,7 @@ ion-icon {
   display: inline-flex;
   color: #bc4ed8;
   /* font-size: 64px; */
-  font-size: 6vh;
+  font-size: 8vh;
   /* margin-top: 20px; */
   margin-top: 1vh;
 }
@@ -2375,6 +2375,19 @@ ion-icon {
   margin-left: 2.5vh;
   /* width: 130px; */
   width: 9vh;
+}
+
+@media (max-width: 600px) {
+.iconos-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* width: 740px; */
+  width: 40vh;
+  /* margin-bottom: 50px; */
+  margin-bottom: 2.5vh;
+  margin-left: 0px;
+}
 }
 
 /* @media (max-width: 1400px) {
