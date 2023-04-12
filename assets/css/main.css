@@ -2377,6 +2377,19 @@ ion-icon {
   width: 9vh;
 }
 
+@media only screen and (max-width: 1400px) and (min-width: 900px) {
+  .iconos-div{  
+    width: 50vh;
+  }
+  .iconos-subdiv{
+    width: 11vh;
+  }
+  ion-icon{
+  font-size: 13vh;
+  }
+}
+
+
 @media (max-width: 600px) {
 .iconos-div{
   display: flex;
