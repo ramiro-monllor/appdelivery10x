@@ -1918,6 +1918,12 @@ p {
   margin: 0 0 50px;
 }
 
+@media (max-width: 780px) {
+  .column-items {
+    flex-direction: column-reverse;
+  }
+}
+
 .container-display-img {
   display: flex;
   justify-content: center;
