@@ -1918,6 +1918,11 @@ p {
   margin: 0 0 50px;
 }
 
+.image-full2 {
+  width: 90%;
+  margin: 0 0 50px;
+}
+
 @media (max-width: 780px) {
   .column-items {
     flex-direction: column-reverse;
